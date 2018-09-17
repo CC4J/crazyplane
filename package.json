@@ -5,7 +5,7 @@
   "main": "game.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start index.js --name 'crazyplane'"
+    "start": "pm2 start server.js --name 'crazyplane'"
   },
   "author": "",
   "license": "ISC",
