@@ -1,0 +1,17 @@
+{
+  "name": "crazyplane",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start index.js --name 'crazyplane'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4"
+  }
+}

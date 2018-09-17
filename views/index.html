@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="/css/game.css" />
+		<script src="/js/jquery-2.1.1.min.js"></script>
+		<script src="/js/game.js"></script>
+	</head>
+	<body>
+		<div id="game">
+			<div id="gameUI">
+				<div id="gameIntro">
+					<h1>Asteroid avoidance</h1>
+					<p>Click play and then press any key to start</p>
+					<p>
+						<a class="button" id="gamePlay">Play</a>
+					</p>
+				</div>
+				
+				<div id="gameStats">
+					<p>
+						Time:
+						<span class="gameScore"></span>
+						seconds
+					</p>
+					<p>
+						<a href="" class="gameReset">Reset</a>
+					</p>
+				</div>
+				
+				<div id="gameComplete">
+					<h1>Game over!</h1>
+					<p>
+						You survived for
+						<span class="gameScore"></span>
+						seconds.
+					</p>
+					<p>
+						<a href="" class="gameReset button">
+							Play agin
+						</a>
+					</p>
+				</div>
+			</div>
+			
+			<canvas id="gameCanvas" width="800" height="600"></canvas>
+			<audio src="/imgs/backSound.mp3" id="gameSoundBackground" loop></audio>
+			<audio src="/imgs/huojian.mp3" id="gameSoundThrust" loop></audio>
+			<audio src="/imgs/gameover.mp3" id="gameSoundDeath"></audio>
+		</div>
+	</body>
+</html>
